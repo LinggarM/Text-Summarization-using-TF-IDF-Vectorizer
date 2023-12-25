@@ -3,12 +3,12 @@ Simple Text Summarization using **TF-IDF Vectorizer** and **NLTK** library
 
 ## About the Project
 
-This project focuses on utilizing the **Term Frequency-Inverse Document Frequency (TF-IDF)** technique for text summarization. The goal is to automatically generate concise and meaningful summaries from longer texts, such as articles, documents, or any body of text.
+This project focuses on utilizing the **Term Frequency-Inverse Document Frequency (TF-IDF)** technique and the use of the **NLTK** library  for text summarization. The goal is to automatically generate concise and meaningful summaries from longer texts, such as articles, documents, or any body of text.
 
 **Key Features:**
- - TF-IDF Vectorization: The project leverages TF-IDF vectorization to represent each sentence in the text as a numerical vector, capturing the importance of each term in the context of the entire document.
- - Sentence Scoring: Each sentence is scored based on its TF-IDF representation, allowing for the identification of key sentences that contribute significantly to the overall content.
- - Threshold-based Summarization: A threshold is defined to select the most important sentences for the final summary. Sentences with TF-IDF scores equal to or greater than the threshold are included in the summarized output.
+ - **TF-IDF Vectorization**: The project leverages TF-IDF vectorization to represent each sentence in the text as a numerical vector, capturing the importance of each term in the context of the entire document.
+ - **Sentence Scoring**: Each sentence is scored based on its TF-IDF representation, allowing for the identification of key sentences that contribute significantly to the overall content.
+ - **Threshold-based Summarization**: A threshold is defined to select the most important sentences for the final summary. Sentences with TF-IDF scores equal to or greater than the threshold are included in the summarized output.
 
 ## Technology Used
 
