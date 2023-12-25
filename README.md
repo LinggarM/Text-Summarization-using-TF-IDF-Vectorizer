@@ -1,13 +1,14 @@
 # Text-Summarization-using-TF-IDF-Vectorizer
-Text Summarization using TF-IDF Vectorizer
-
-Movie Synopsis Text Clustering using **K-Means Clustering** and **TF-IDF Vectorizer** and deployment using framework **Flask**.
+Simple Text Summarization using **TF-IDF Vectorizer** and **NLTK** library
 
 ## About the Project
 
-This project is a major assignment project for the second semester of the **natural language processing** course. The objective of this task is to collect movie synopsis data, perform text clustering on the movie synopsis data into k amount of clusters, and transform it into a web application.
+This project focuses on utilizing the **Term Frequency-Inverse Document Frequency (TF-IDF)** technique for text summarization. The goal is to automatically generate concise and meaningful summaries from longer texts, such as articles, documents, or any body of text.
 
-In this project, we use **K-Means Clustering** to perform text clustering and **TF-IDF Vectorizer** as Word Embedding (to convert text data into vectors).
+**Key Features:**
+ - TF-IDF Vectorization: The project leverages TF-IDF vectorization to represent each sentence in the text as a numerical vector, capturing the importance of each term in the context of the entire document.
+ - Sentence Scoring: Each sentence is scored based on its TF-IDF representation, allowing for the identification of key sentences that contribute significantly to the overall content.
+ - Threshold-based Summarization: A threshold is defined to select the most important sentences for the final summary. Sentences with TF-IDF scores equal to or greater than the threshold are included in the summarized output.
 
 ## Technology Used
 
@@ -39,10 +40,14 @@ In this project, we use **K-Means Clustering** to perform text clustering and **
 
 ## Usage (Tutorials)
 
-1. Open notebook file in [notebooks/text_summarization.ipynb](notebooks/text_summarization.ipynb)
-2. Input the document by copy-paste your document (articles, news, essays, etc) into `sentence` variable
-3. Run all the cells
-4. The final summary will be saved in the `final_summ` variable and can be viewed in the `Summarization Result` section.
+1. Install the dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+2. Open notebook file in [notebooks/text_summarization.ipynb](notebooks/text_summarization.ipynb)
+3. Input the document by copy-paste your document (articles, news, essays, etc) into `sentence` variable
+4. Run all the cells
+5. The final summary will be saved in the `final_summ` variable and can be viewed in the `Summarization Result` section.
 
 ## Contributors
 * [Linggar Maretva Cendani](https://github.com/LinggarM) - [linggarmc@gmail.com](mailto:linggarmc@gmail.com)
